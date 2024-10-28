@@ -1,0 +1,107 @@
+* {
+  box-sizing: border-box;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+.gameContainer {
+  width: 500px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  border-radius: 20px;
+  background-color: white;
+}
+
+body {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0;
+  background-color: #b9b9b9;
+}
+
+.header {
+  background-color: #ffd580;
+  padding: 30px;
+  border-radius: 20px 20px 0px 0px;
+}
+
+h1 {
+  text-align: center;
+}
+
+h2 {
+  text-align: center;
+}
+
+.icon {
+  font-size: 50px;
+}
+
+.playerContainer {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 50px;
+}
+
+#computer .icon {
+  color: #757575;
+  cursor: not-allowed;
+}
+
+#player .icon {
+  cursor: pointer;
+  color: #4a90e2;
+}
+
+.resetContainer {
+  text-align: center;
+}
+
+.resetIcon {
+  font-size: 30px;
+  cursor: pointer;
+  color: #fd6e6e;
+}
+
+.resultContainer {
+  text-align: center;
+}
+
+.resultText {
+  font-size: 40px;
+  margin: 30px;
+  color: #9c27b0;
+}
+
+.selected {
+  color: #4caf50 !important;
+}
+
+h2 .choice {
+  color: #4caf50;
+}
+
+#player .icon:hover {
+  color: #2c6ba0;
+}
+
+.resetIcon:hover {
+  color: #e05656;
+}
+
+@keyframes flash-red {
+  0% {
+    background-color: rgba(255, 0, 0, 0);
+  }
+  50% {
+    background-color: rgba(255, 0, 0, 0.4);
+  }
+  100% {
+    background-color: rgba(255, 0, 0, 0.4);
+  }
+}
+
+.flash-red {
+  animation: flash-red 1s ease-in-out forwards;
+}
