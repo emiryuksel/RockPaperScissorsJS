@@ -1,4 +1,4 @@
-# Rock Paper Scissors Game with Red Flash and Confetti Effects 🎉
+# Rock Paper Scissors Game with Red Flash and Confetti Effects
 
 This project is a simple **Rock Paper Scissors** game that includes interactive features, such as flashing red effects to indicate losing rounds and confetti animations to celebrate victories. Built with HTML, CSS, and JavaScript, it delivers a fun, engaging experience with visual feedback for each game outcome.
 
