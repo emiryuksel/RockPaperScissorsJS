@@ -123,3 +123,8 @@ function resetAll() {
 function loseEffect() {
   document.body.classList.add("flash-red");
 }
+
+document.addEventListener("DOMContentLoaded", function() {
+    resetAll();
+});
+
